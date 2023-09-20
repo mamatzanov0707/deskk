@@ -1,0 +1,34 @@
+#footer{
+  //background: #FCFCFC;
+  padding: 7rem 0;
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &--off{
+      a{
+        padding: 10px 0;
+        text-decoration-line: none;
+        font-weight: 770;
+        font-size: 16px;
+        line-height: 28px;
+        color: #657582;
+        display: block;
+      }
+      h2{
+        font-weight: 770;
+        font-size: 22px;
+        line-height: 28px;
+        color: #2C3847;
+      }
+      p{
+        padding: 10px 0;
+        font-weight: 760;
+        font-size: 16px;
+        line-height: 20px;
+        color: #657582
+      }
+    }
+  }
+}

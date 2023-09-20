@@ -1,0 +1,48 @@
+#dell{
+  padding: 7rem 0;
+  .dell{
+    h3{
+      font-weight: 770;
+      font-size: 36px;
+      line-height: 45px;
+      text-align: center;
+      color: #151414;
+    }
+    p{
+      font-weight: 750;
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      color: #3B433E;
+    }
+    &--off{
+      margin-left: 28%;
+      padding: 15px 0;
+      input{
+        padding: 0 10px;
+        margin-right: 20px;
+        font-weight: 750;
+        font-size: 18px;
+        line-height: 22px;
+        color: #8A8A8A;
+        width: 330px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 1.5px solid #000;
+        border-radius: 165px;
+      }
+      button{
+        border: 2px solid #64BB47;
+        width: 170px;
+        height: 60px;
+        background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+        border-radius: 50px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

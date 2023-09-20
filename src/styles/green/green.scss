@@ -1,0 +1,33 @@
+#green{
+  .green{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &--blue{
+      h2{
+        font-weight: 770;
+        font-size: 54px;
+        line-height: 68px;
+        color: #151414;
+      }
+      p{
+        font-weight: 750;
+        font-size: 22px;
+        line-height: 34px;
+        color: #181D19;
+      }
+    }
+    &--how{
+      display: flex;
+      align-items: center;
+     input{
+       width: 20px;
+       height: 20px;
+       margin-right: 30px;
+       background-color: #6EBF4B;
+       border-radius: 3px;
+     }
+    }
+  }
+}

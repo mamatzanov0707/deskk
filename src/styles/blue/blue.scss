@@ -1,0 +1,41 @@
+#blue {
+  padding: 8rem 0;
+  .blue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    &--for{
+      h2{
+        font-weight: 770;
+        font-size: 54px;
+        line-height: 68px;
+        color: #151414;
+      }
+      p{
+        font-weight: 750;
+        font-size: 22px;
+        line-height: 34px;
+        color: #181D19;
+      }
+      button{
+        border: 2px solid #64BB47;
+        width: 210px;
+        height: 64px;
+        background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+        border-radius: 50px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+    &--tia{
+      img{
+        display: block;
+        margin-top: 15px;
+      }
+    }
+  }
+}
